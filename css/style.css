@@ -11,6 +11,60 @@
 
 /* ===========
    ===========
-      RESET
+    UTILITIES
    ===========
    =========== */
+   .container {
+    max-width: 75rem;
+    margin: auto;
+
+    color: limegreen;
+
+    background-color: black;
+
+   }
+/* ===========
+   ===========
+    BGCOLORS
+   ===========
+   =========== */
+   .fizz {
+    background-color: limegreen;
+    color: black;
+   }
+
+   .buzz {
+    background-color: yellow;
+    color: black;
+   }
+
+   .fizzbuzz {
+    background-color: fuchsia;
+    color: black;
+   }
+
+
+
+/* ===========
+   ===========
+      STYLE
+   ===========
+   =========== */
+   .box {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+
+    li {
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    list-style: none;
+
+    width: calc(100% / 10);
+    height: 5rem;
+
+    border: 0.625rem solid white;
+   }

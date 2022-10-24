@@ -1,5 +1,5 @@
 
-const numberContainer = document.querySelector(`.number_container`);
+const box = document.querySelector(`.box`);
 const genera = document.getElementById(`genera`);
 
 genera.addEventListener(`click`, function() {
@@ -12,6 +12,7 @@ genera.addEventListener(`click`, function() {
         let buzz = `Buzz`;
         let fizzbuzz = `FizzBuzz`;
 
+
         if (element % 15 == 0) {
             element = `${fizzbuzz}`;
         } else if (element % 5 == 0) {
@@ -20,7 +21,12 @@ genera.addEventListener(`click`, function() {
             element = `${fizz}`;
         }
 
-        console.log(element);
+        const ul = document.querySelector(`.box`); 
+        let li = `<li>${element}</li>`;
+        ul.innerHTML += li;
+
+
+        
     }
     
 });
