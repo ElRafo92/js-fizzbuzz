@@ -18,10 +18,20 @@
     max-width: 75rem;
     margin: auto;
 
-    color: limegreen;
+    text-align: center;
+   }
 
-    background-color: black;
-
+   .btn {
+      text-decoration: none;
+      text-align: center;
+      font-weight: bolder;
+      padding: 0.625rem;
+      margin: 0.625rem;
+      background-color: red;
+      color: white;
+      text-transform: uppercase;
+      border-style: none;
+      border: 3px solid yellow;
    }
 /* ===========
    ===========

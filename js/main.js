@@ -22,11 +22,15 @@ genera.addEventListener(`click`, function() {
         }
 
         const ul = document.querySelector(`.box`); 
-        let li = `<li>${element}</li>`;
+        let li = `<li class="lista">${element}</li>`;
         ul.innerHTML += li;
-
-
         
+        let lista = document.querySelector(`.lista`);
+        if (element == `Fizz`){
+            lista.classList.add(`fizz`)
+        }  
+        debugger
+        console.log(element)
     }
     
 });
